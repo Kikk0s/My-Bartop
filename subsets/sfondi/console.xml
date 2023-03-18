@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+  
+   <include>./config.xml</include>
+   
+  <view name="system">
+    <image name="background" extra="true">
+      <color>000000ff</color>
+    </image>
+	
+    <video name="backgroundvideo" extra="true">
+      <path>{random}</path>
+      <delay>1</delay>
+      <color>ffffffa0</color>
+      <effect>none</effect>
+      <zIndex>2</zIndex>
+	  <default>./subsets/sfondi/novideo.mp4</default>
+    </video>
+	
+    <image name="CenterFade" extra="true">
+      <color>00000099</color>
+    </image>
+	<image name="arcadeled" extra="true">
+      <visible>false</visible>
+    </image>
+	  <image name="arcadestrip" extra="true">
+      <visible>false</visible>
+    </image>	
+  </view>
+</theme>

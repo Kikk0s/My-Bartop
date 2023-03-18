@@ -1,0 +1,80 @@
+<theme>
+    <formatVersion>7</formatVersion>
+
+<!--Carosello -->
+	<subset subset="systemview" name="Carousel">
+	<include name="wheel">./subsets/carosello/wheel.xml</include>
+	<include name="vertical">./subsets/carosello/vertical.xml</include>
+	<include name="horizontal">./subsets/carosello/horizontal.xml</include>
+	<include name="Controllers">./subsets/carosello/system.xml</include>
+	</subset>
+
+	<subset name="Carousel images source" appliesTo="gamecarousel">
+	<include name="text">./subsets/carosellogiochi/testo.xml</include>
+	<include name="marquee">./subsets/carosellogiochi/marquee.xml</include>
+	</subset>
+	
+	<subset name="Game Carousel Style" appliesTo="gamecarousel">
+	<include name="Vertical">./subsets/carosellogiochi/vertical.xml</include>
+	<include name="Wheel">./subsets/carosellogiochi/wheel.xml</include>
+	</subset>
+
+<!--Sfondi -->
+	<subset subset="systemview" name="Custom Background">
+	<include name="black">./subsets/sfondi/black.xml</include>
+	<include name="hexagon">./subsets/sfondi/hexagon.xml</include>
+	<include name="carbon">./subsets/sfondi/carbon.xml</include>
+	<include name="holes">./subsets/sfondi/holes.xml</include>
+	<include name="holes V2">./subsets/sfondi/holesv2.xml</include>
+	<include name="holes V3">./subsets/sfondi/holesv3.xml</include>
+	<include name="metal">./subsets/sfondi/metal.xml</include>
+	<include name="armor">./subsets/sfondi/armor.xml</include>
+	<include name="Fullscreen video">./subsets/sfondi/video.xml</include>
+	<include name="Arcade video frame">./subsets/sfondi/arcade.xml</include>
+	<include name="Dust">./subsets/sfondi/dust.xml</include>
+	</subset>
+
+
+<!--Schema colori -->	
+	<subset subset="colorset" name="Color set">
+	<include name="Gray">./subsets/colors/gray.xml</include>
+	<include name="Purple">./subsets/colors/purple.xml</include>
+	<include name="Orange">./subsets/colors/orange.xml</include>
+	<include name="Yellow">./subsets/colors/yellow.xml</include>
+	<include name="Brown">./subsets/colors/brown.xml</include>
+	<include name="Green">./subsets/colors/green.xml</include>
+	<include name="Blue">./subsets/colors/blue.xml</include>
+	<include name="Light Blue">./subsets/colors/lightblue.xml</include>
+	<include name="Red">./subsets/colors/red.xml</include>
+	</subset>
+
+<!--effetti -->
+	<subset subset="effects" name="Effects">
+	<include name="No effects">./subsets/effetti/noeffect.xml</include>
+	<include name="Pixelate">./subsets/effetti/pixelate.xml</include>
+	<include name="Scanlines">./subsets/effetti/scanlines.xml</include>
+	</subset>
+	
+<!--animazioni -->
+	<subset subset="animations" name="Animations">
+	<include name="animations">./subsets/animazioni/animations.xml</include>
+	<include name="No animations">./subsets/animazioni/noanimations.xml</include>
+	</subset>
+	
+<!--stile rating -->
+	<subset subset="rating" name="Rating Style">
+	<include name="Star">./subsets/rating/star.xml</include>
+	<include name="Hexagon">./subsets/rating/hexagon.xml</include>
+	<include name="Circle">./subsets/rating/circle.xml</include>
+	<include name="Heart">./subsets/rating/heart.xml</include>
+	</subset> 	
+	
+<!--anteprima video nella vista grid -->
+	<subset subset="video" name="Video on grid">
+	<include name="No">./subsets/grid/novideo.xml</include>
+	<include name="Yes">./subsets/grid/video.xml</include>
+	</subset> 
+	
+</theme>
+
+
