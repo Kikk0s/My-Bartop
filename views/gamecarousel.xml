@@ -17,11 +17,11 @@
     </gamecarousel> 
 	<text name="gamecarouselLogoText">
         <color>${accentColor}</color>
-		<fontPath>./tema/fonts/SnesItalic.ttf</fontPath>
+		<fontPath>./tema/fonts/Ubuntu-Regular.ttf</fontPath>
 	     <fontSize>0.07</fontSize>	  
 		<lineSpacing>1</lineSpacing>
 		 <zIndex>102</zIndex>
-		 <forceUppercase>1</forceUppercase>
+		 <forceUppercase>0</forceUppercase>
     </text>
 	</view>
 	

@@ -25,7 +25,7 @@
 		 <origin>0.5 0.5</origin>
 		 <size>0.5 0.069</size>
          <fontPath>./tema/fonts/RocketScript.ttf</fontPath>
-	     <fontSize>0.105</fontSize>
+	     <fontSize>0.07</fontSize>
 		 <backgroundColor>00000000</backgroundColor>
 		 <zIndex>101</zIndex>	
 		</text> 
@@ -43,7 +43,7 @@
 
 		
 <image name="systeminfosfondo" extra="true">
-			 <pos>0.15 0.68</pos>
+			 <pos>0.15 0.70</pos>
 		     <size>0.85 0.02</size>
 			 <path>./subsets/carosello/linee.png</path> 
 		</image>		

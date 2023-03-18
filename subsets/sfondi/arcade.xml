@@ -3,59 +3,43 @@
   <formatVersion>7</formatVersion>
   
    <include>./config.xml</include>
-   
-  <view name="system">
-    <image name="background" extra="true">
-      <color>000000ff</color>
-    </image>
-	
-    <video name="backgroundvideo" extra="true">
-      <path>{random}</path>
-      <delay>1</delay>
-      <color>ffffffa0</color>
-      <effect>none</effect>
+  <view name="system"> 
+   <image name="staticBackground">
+      <size>1 1</size>
+      <pos>0 0</pos>
+      <origin>0 0</origin>
+      <tile>false</tile>
+      <path>./subsets/sfondi/Arcade.png</path>
       <zIndex>2</zIndex>
-	  <default>./subsets/sfondi/novideo.mp4</default>
-    </video>
+    </image>	
+
 	
- <video name="backgroundvideo" extra="true">
-      <pos>0.715 0.452</pos>
-      <origin>0.5 0.5</origin>
-      <maxSize>0.33 0.33</maxSize>
+   	<image name="arcadeled" extra="true">
+      <visible>false</visible>
+    </image>	
+	  <image name="arcadestrip" extra="true">
+      <visible>false</visible>
+    </image>	
+	 <video name="backgroundvideo" extra="true">
+       <visible>false</visible>
     </video>
     <video name="backgroundvideo" extra="true" ifHelpPrompts="false">
-      <pos>0.715 0.452</pos>
-      <minSize>1 1</minSize>
+      <visible>false</visible>
     </video>
-	
+ 	  
     <image name="CenterFade" extra="true">
-      <color>00000099</color>
+     <visible>false</visible>
+    </image> 
+    <image name="arcadevideo" extra="true">
+      <visible>false</visible>
     </image>
-	
-		 <image name="consolestrip" extra="true">
+	 <image name="consolestrip" extra="true">
          <visible>false</visible>
     </image>	
 
   <image name="consoleled" extra="true">
         <visible>false</visible>
     </image>
-	
-<text name="systemInfo">     
-         <pos>0.715 0.15</pos>
-		 <origin>0.5 0.5</origin>
-		 <size>0.5 0.069</size>
-         <fontPath>./tema/fonts/RocketScript.ttf</fontPath>
-	     <fontSize>0.05</fontSize>
-		 <backgroundColor>00000000</backgroundColor>
-		 <zIndex>101</zIndex>	
-		</text> 
-	
-<image name="systeminfosfondo" extra="true">
-			 <pos>0.45 0.75</pos>
-		     <size>0.65 0.1</size>
-			<path>./tema/images/trasparente.png</path>
-			<color>00000000</color>			 
-		</image>
 	
   </view>
 </theme>

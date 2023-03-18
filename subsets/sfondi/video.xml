@@ -4,7 +4,8 @@
     <include>./config.xml</include>
   <view name="system">
     <image name="background" extra="true">
-      <color>000000ff</color>
+      <color>00000070</color>
+	  <zIndex>5</zIndex>
     </image>
     <video name="backgroundvideoFull" extra="true">
       <path>{random}</path>
@@ -48,6 +49,10 @@
 
   <image name="consoleled" extra="true">
         <visible>false</visible>
+    </image>
+	
+		 <image name="arcadeglow" extra="true">
+	<visible>false</visible>
     </image>
 	
   </view>

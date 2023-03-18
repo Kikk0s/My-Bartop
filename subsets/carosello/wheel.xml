@@ -39,7 +39,7 @@
 			<zIndex>98</zIndex>	   
 </image>		
 <image name="systeminfosfondo" extra="true">
-			 <pos>0.45 0.74</pos>
+			 <pos>0.45 0.76</pos>
 		     <size>0.65 0.02</size>
 			<path>./subsets/carosello/linee.png</path> 			 
 		</image>

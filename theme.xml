@@ -111,6 +111,13 @@
       <glowOffset>1 1</glowOffset> -->
       <zIndex>99</zIndex>
     </image>
+	
+	<image name="arcadeglow" extra="true">
+      <tile>false</tile>
+      <path>./subsets/sfondi/Arcade_glow.png</path>
+	  <color>${accentColor2}</color>
+      <zIndex>99</zIndex>
+    </image>	
 
   <image name="arcadestrip" extra="true">
       <tile>false</tile>
@@ -118,11 +125,28 @@
 	 <!--<color>${accentColor2}</color> -->
       <zIndex>5</zIndex>
     </image>	
+	
+	 <image name="consoleled" extra="true">
+      <tile>false</tile>
+      <path>./subsets/sfondi/consoleled.png</path>
+	  <color>${accentColor2}</color>
+	  <!--<glowColor>${accentColor}</glowColor>
+      <glowSize>3</glowSize>
+      <glowOffset>1 1</glowOffset> -->
+      <zIndex>99</zIndex>
+    </image>
+	
+	<image name="consolestrip" extra="true">
+      <tile>false</tile>
+      <path>./subsets/sfondi/consolestrip.png</path>
+	 <!--<color>${accentColor2}</color> -->
+      <zIndex>5</zIndex>
+    </image>
 
  <!-- barra suggerimenti in basso -->
    <helpsystem name="help">
           <fontPath>./tema/fonts/Ubuntu-Medium.ttf</fontPath>
-	     <fontSize>0.030</fontSize>
+	     <fontSize>0.02</fontSize>
 		 <pos>0.5 0.95</pos>
 		 <origin>0.5 0.5</origin>
          <textColor>ffffff97</textColor>
@@ -161,7 +185,7 @@
    <view name="detailed,video,basic,grid,gamecarousel">
       <helpsystem name="help">
           <fontPath>./tema/fonts/Ubuntu-Medium.ttf</fontPath>
-	     <fontSize>0.03</fontSize>
+	     <fontSize>0.02</fontSize>
 		  <pos>0.53 0.95</pos>
 		 <origin>0.5 0.5</origin>
          <textColor>ffffff97</textColor>
@@ -172,13 +196,14 @@
 <!-- lista giochi caratteristiche testo -->
 <view name="basic,detailed,video">
       <textlist name="gamelist">      
-         <selectorColor>${accentColor}</selectorColor>
-         <selectedColor>000000</selectedColor>
+         <selectorColor>${accentColor2}</selectorColor>
+         <selectedColor>${accentColor}</selectedColor>
+		 <selectorImagePath>./subsets/carosello/selector.png</selectorImagePath>
          <primaryColor>ffffff</primaryColor>
          <secondaryColor>${accentColor}</secondaryColor>
          <fontPath>./tema/fonts/Ubuntu-Regular.ttf</fontPath>
          <fontSize>0.020</fontSize>
-         <forceUppercase>1</forceUppercase>
+         <forceUppercase>0</forceUppercase>
          <scrollSound>./tema/sounds/Move.wav</scrollSound>
          <zIndex>3</zIndex>                          
       </textlist>  
@@ -214,7 +239,6 @@
 		</image>
 		
 		<image name="line" extra="true">
-			<tile>true</tile>
 			<size>0.52 0.002</size>
 			<pos>0.50 0.10</pos>
 			<path>./tema/images/white.png</path>
@@ -223,7 +247,6 @@
 		</image>
 	
 	<image name="line2" extra="true">
-			<tile>true</tile>
 			<size>0.53 0.002</size>
 			<pos>0.49 0.145</pos>
 			<path>./tema/images/white.png</path>
@@ -232,7 +255,6 @@
 		</image>
 	
 	<image name="line3" extra="true">
-			<tile>true</tile>
 			<size>0.54 0.002</size>
 			<pos>0.48 0.19</pos>
 			<path>./tema/images/white.png</path>
@@ -266,30 +288,27 @@
 			
 		</image>	
 
-	<image name="line" extra="true">
-			<tile>true</tile>
+	<image name="line" extra="true">		
 			<size>0.52 0.002</size>
 			<pos>0.50 0.2</pos>
 			<path>./tema/images/white.png</path>
-			 <color>${accentColor2t}</color>
+			 <color>${accentColor2}</color>
 			<zIndex>2</zIndex>				
 		</image>
 		
-	<image name="line2" extra="true">
-			<tile>true</tile>
+	<image name="line2" extra="true">		
 			<size>0.52 0.002</size>
 			<pos>0.50 0.40</pos>
 			<path>./tema/images/white.png</path>
-			 <color>${accentColor2t}</color>
+			 <color>${accentColor2}</color>
 			<zIndex>2</zIndex>					
 		</image>
 		
 	<image name="line3" extra="true">
-			<tile>true</tile>
 			<size>0.52 0.002</size>
 			<pos>0.50 0.90</pos>
 			<path>./tema/images/white.png</path>
-			 <color>${accentColor2t}</color>
+			 <color>${accentColor2}</color>
 			<zIndex>2</zIndex>	   
 		</image>
 </view>     
@@ -316,20 +335,18 @@
 		</image>
 		
 	<image name="line2" extra="true">
-			<tile>true</tile>
 			<size>0.52 0.002</size>
 			<pos>0.50 0.40</pos>
 			<path>./tema/images/white.png</path>
-			 <color>${accentColor2t}</color>
+			 <color>${accentColor2}</color>
 			<zIndex>2</zIndex>					
 		</image>
 		
 	<image name="line3" extra="true">
-			<tile>true</tile>
 			<size>0.52 0.002</size>
 			<pos>0.50 0.90</pos>
 			<path>./tema/images/white.png</path>
-			 <color>${accentColor2t}</color>
+			 <color>${accentColor2}</color>
 			<zIndex>2</zIndex>				
 		</image>
 
@@ -449,7 +466,7 @@
 		</text>
 		<text name="gridtile_selected">
 			<color>000000</color>
-			<glowColor>${accentColor}</glowColor>
+			<glowColor>${accentColor2}</glowColor>
 			<fontSize>0.02</fontSize>
 			<forceUppercase>1</forceUppercase>
 			<glowSize>2</glowSize>

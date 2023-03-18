@@ -50,7 +50,7 @@
 </image>			
 
 <image name="systeminfosfondo" extra="true">
-			 <pos>0.45 0.65</pos>
+			 <pos>0.45 0.66</pos>
 		     <size>0.65 0.02</size> 
 			 <path>./subsets/carosello/linee.png</path> 
 		</image>
@@ -64,7 +64,7 @@
     </video>
  	  
 	<image name="controllers" extra="true">
-	  <maxSize>0.40 0.40</maxSize>
+	  <maxSize>0.30 0.30</maxSize>
       <pos>0.25 0.5</pos>
 	  <!--<rotation>-30</rotation>
 	  <rotationOrigin>0.5 0.5</rotationOrigin>-->
@@ -76,7 +76,7 @@
     </image>	
 	
 	<image name="sistemi" extra="true">
-      <size>0.5 0</size>
+      <size>0.3 0</size>
       <pos>0.73 0.3</pos>
       <origin>0.5 0.5</origin>
       <tile>false</tile>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+    <include>./config.xml</include>
+  <view name="system">
+
+<video name="staticBackground">
+      <size>1 1</size>
+      <pos>0 0</pos>
+      <origin>0 0</origin>
+      <path>./subsets/sfondi/particles.mp4</path>
+      <zIndex>4</zIndex>
+    </video>	
+
+
+	<video name="backgroundvideo" extra="true">
+	  <visible>false</visible>
+    </video>
+	
+    <video name="backgroundvideo" extra="true" ifHelpPrompts="false">
+	  <visible>false</visible>
+    </video>
+	<image name="arcadeled" extra="true">
+      <visible>false</visible>
+    </image>
+	
+	<image name="arcadestrip" extra="true">
+      <visible>false</visible>
+    </image>
+	
+	 <image name="consolestrip" extra="true">
+         <visible>false</visible>
+    </image>	
+
+  <image name="consoleled" extra="true">
+        <visible>false</visible>
+    </image>
+	
+		 <image name="arcadeglow" extra="true">
+	<visible>false</visible>
+    </image>
+	
+  </view>
+</theme>

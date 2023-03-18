@@ -43,7 +43,7 @@
 
 
 <image name="systeminfosfondo" extra="true">
-			 <pos>0.15 0.68</pos>
+			 <pos>0.15 0.70</pos>
 		     <size>0.85 0.02</size>
 			 <path>./subsets/carosello/linee.png</path> 
 		</image>	

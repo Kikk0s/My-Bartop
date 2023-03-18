@@ -36,6 +36,11 @@
 
   <image name="consoleled" extra="true">
         <visible>false</visible>
-    </image>	
+    </image>
+
+	 <image name="arcadeglow" extra="true">
+	<visible>false</visible>
+    </image>
+	
 </view>		
 </theme>

@@ -29,9 +29,15 @@
 	<include name="holes V3">./subsets/sfondi/holesv3.xml</include>
 	<include name="metal">./subsets/sfondi/metal.xml</include>
 	<include name="armor">./subsets/sfondi/armor.xml</include>
+	<include name="circuits">./subsets/sfondi/circuits.xml</include>
+	<include name="Arcade">./subsets/sfondi/Arcade.xml</include>
+	<include name="Arcade video frame">./subsets/sfondi/Bartop.xml</include>
+	<include name="Video frame">./subsets/sfondi/console.xml</include>
 	<include name="Fullscreen video">./subsets/sfondi/video.xml</include>
-	<include name="Arcade video frame">./subsets/sfondi/arcade.xml</include>
+	<include name="Game room">./subsets/sfondi/gameroom.xml</include>
 	<include name="Dust">./subsets/sfondi/dust.xml</include>
+	<include name="Particels">./subsets/sfondi/particles.xml</include>
+	<include name="Pixel">./subsets/sfondi/pixel.xml</include>
 	</subset>
 
 
@@ -46,6 +52,7 @@
 	<include name="Blue">./subsets/colors/blue.xml</include>
 	<include name="Light Blue">./subsets/colors/lightblue.xml</include>
 	<include name="Red">./subsets/colors/red.xml</include>
+	<include name="White">./subsets/colors/white.xml</include>
 	</subset>
 
 <!--effetti -->
