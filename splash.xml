@@ -10,10 +10,10 @@
 			<backgroundColor>000000</backgroundColor>
 		</splash>
 		<image name="background">
-			<path>./tema/images/splash2.jpg</path>
+			<path>./tema/images/splasharcade.jpg</path>
 		</image>
 		<image name="splashaccento" extra="true">
-			<path>./tema/images/splashaccento.png</path>
+			<path>./tema/images/splasharcadeaccento.png</path>
 			<color>${accentColor2}</color>
 			<zIndex>7</zIndex>
 		</image>

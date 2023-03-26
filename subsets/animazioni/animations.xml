@@ -9,7 +9,7 @@
 
 <!-- grafiche in aggiunta sulla home -->
 <image name="systeminfosfondo" extra="true">
-			<zIndex>100</zIndex>
+			<zIndex>101</zIndex>
 			<storyboard>
 			<animation property="x" from="1" begin="1" duration="500" mode="easeIn"/>
 			 <!-- <animation property="opacity" from="0.5" to="1" duration="500" mode="linear" autoReverse="true" repeat="forever" /> -->
@@ -17,40 +17,41 @@
 		</image>
 		
 <image name="arcadeled" extra="true">
-      <zIndex>99</zIndex>
+      <zIndex>101</zIndex>
 	  <storyboard>
-			<animation property="opacity" from="0" to="1" duration="3000" mode="easeIn"/>
+			<animation property="opacity" from="0" to="1" duration="3000" mode="easeIn" autoReverse="true" repeat="forever"/>
 	  </storyboard>
     </image>
 	
-	<image name="arcadestrip" extra="true">
-      <zIndex>98</zIndex>
-	  <storyboard>
-			<animation property="opacity" from="0.05" to="1" duration="1000" mode="easeIn"/>
-	  </storyboard>
-    </image>	
 	
 <image name="consoleled" extra="true">
-      <zIndex>99</zIndex>
+      <zIndex>9</zIndex>
 	  <storyboard>
 			<animation property="opacity" from="0" to="1" duration="3000" mode="easeIn"/>
 	  </storyboard>
     </image>
 	
 	<image name="consolestrip" extra="true">
-      <zIndex>98</zIndex>
+      <zIndex>8</zIndex>
 	  <storyboard>
 			<animation property="opacity" from="0.05" to="1" duration="1000" mode="easeIn" />
 	  </storyboard>
     </image>
 	
 		 <image name="arcadeglow" extra="true">
-	 <zIndex>99</zIndex>
+	 <zIndex>101</zIndex>
 	  <storyboard>
-			<animation property="opacity" from="0.00" to="0.8" duration="1500" mode="linear" autoReverse="true" repeat="forever" />
-			
+				<animation property="opacity" from="0" to="1" duration="3000" mode="easeIn" autoReverse="true" repeat="forever"/>
 	  </storyboard>
     </image>
+	
+			 <image name="splashaccento" extra="true">
+	 <zIndex>7</zIndex>
+	  <storyboard>
+				<animation property="opacity" from="0" to="1" duration="3000" mode="easeIn" autoReverse="true" repeat="forever"/>
+	  </storyboard>
+    </image>
+	
 	
 	<image name="controllers" extra="true">
       <zIndex>7</zIndex>
@@ -60,11 +61,32 @@
     </image>
 	
 	<image name="sistemi" extra="true">
-      <zIndex>99</zIndex>
+      <zIndex>9</zIndex>
 	  <storyboard>
 			<animation property="opacity" from="0" to="1" duration="1200" mode="easeIn"/>
 	  </storyboard>
     </image>
+	
+	<!-- <image name="arcadeterra" extra="true">
+      <zIndex>101</zIndex>
+	  <storyboard>
+			<animation property="opacity" from="0" to="1" duration="3000" mode="easeIn" autoReverse="true" repeat="forever"/>
+	  </storyboard>
+    </image>
+
+	<image name="arcadeterrascifi" extra="true">
+      <zIndex>101</zIndex>
+	  <storyboard>
+			<animation property="opacity" from="0" to="1" duration="3000" mode="easeIn" autoReverse="true" repeat="forever"/>
+	  </storyboard>
+    </image>
+	
+	<image name="gamer" extra="true">
+      <zIndex>101</zIndex>
+	  <storyboard>
+			<animation property="opacity" from="0" to="1" duration="3000" mode="easeIn" autoReverse="true" repeat="forever"/>
+	  </storyboard>
+    </image> -->
 	
 </view> 		
 

@@ -65,7 +65,7 @@
 
 <!-- Menu batocera sfondo--> 
     <menuBackground name="menubg">
-      <color>000000</color>
+      <color>00000099</color>
       <path>./tema/images/dark.png</path>
     </menuBackground>
   </view> 
@@ -109,21 +109,14 @@
 	  <!--<glowColor>${accentColor}</glowColor>
       <glowSize>3</glowSize>
       <glowOffset>1 1</glowOffset> -->
-      <zIndex>99</zIndex>
+      <zIndex>101</zIndex>
     </image>
 	
 	<image name="arcadeglow" extra="true">
       <tile>false</tile>
-      <path>./subsets/sfondi/Arcade_glow.png</path>
-	  <color>${accentColor2}</color>
-      <zIndex>99</zIndex>
-    </image>	
-
-  <image name="arcadestrip" extra="true">
-      <tile>false</tile>
-      <path>./subsets/sfondi/arcadestrip.png</path>
-	 <!--<color>${accentColor2}</color> -->
-      <zIndex>5</zIndex>
+      <path>./subsets/sfondi/arcadeglow.png</path>
+	  <!--<color>${accentColor2}</color> -->
+      <zIndex>101</zIndex>
     </image>	
 	
 	 <image name="consoleled" extra="true">

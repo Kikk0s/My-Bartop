@@ -9,6 +9,13 @@
       <color>000000ff</color>
     </image>
 	
+	  <image name="staticBackground" extra="true">
+      <tile>false</tile>
+      <path>./subsets/sfondi/arcadestrip.png</path>
+	 <!--<color>${accentColor2}</color> -->
+      <zIndex>5</zIndex>
+    </image>	
+	
     <video name="backgroundvideo" extra="true">
       <path>{random}</path>
       <delay>1</delay>
@@ -19,12 +26,12 @@
     </video>
 	
  <video name="backgroundvideo" extra="true">
-      <pos>0.715 0.452</pos>
+      <pos>0.715 0.552</pos>
       <origin>0.5 0.5</origin>
-      <maxSize>0.33 0.33</maxSize>
+      <maxSize>0.5 0.5</maxSize>
     </video>
     <video name="backgroundvideo" extra="true" ifHelpPrompts="false">
-      <pos>0.715 0.452</pos>
+      <pos>0.715 0.552</pos>
       <minSize>1 1</minSize>
     </video>
 	
@@ -48,8 +55,8 @@
          <pos>0.715 0.15</pos>
 		 <origin>0.5 0.5</origin>
 		 <size>0.5 0.069</size>
-         <fontPath>./tema/fonts/RocketScript.ttf</fontPath>
-	     <fontSize>0.05</fontSize>
+         <fontPath>./tema/fonts/retro_party.ttf</fontPath>
+	     <fontSize>0.075</fontSize>
 		 <backgroundColor>00000000</backgroundColor>
 		 <zIndex>101</zIndex>	
 		</text> 

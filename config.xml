@@ -36,8 +36,13 @@
 	<include name="Fullscreen video">./subsets/sfondi/video.xml</include>
 	<include name="Game room">./subsets/sfondi/gameroom.xml</include>
 	<include name="Dust">./subsets/sfondi/dust.xml</include>
-	<include name="Particels">./subsets/sfondi/particles.xml</include>
+	<include name="Particles">./subsets/sfondi/particles.xml</include>
 	<include name="Pixel">./subsets/sfondi/pixel.xml</include>
+	<include name="Sci-Fi">./subsets/sfondi/scifi.xml</include>
+	<include name="Metropolis">./subsets/sfondi/city.xml</include>
+	<include name="Linear">./subsets/sfondi/lines.xml</include>
+	<include name="Earth">./subsets/sfondi/Terra.xml</include>
+	<include name="Triangles">./subsets/sfondi/triangles.xml</include>
 	</subset>
 
 

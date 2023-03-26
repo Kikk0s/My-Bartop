@@ -5,6 +5,7 @@
  <view name="gamecarousel">
     <gamecarousel name="gamecarousel">
         <type>vertical_wheel</type>
+		  <maxLogoCount>6</maxLogoCount>
 	</gamecarousel> 
 	</view>
 	

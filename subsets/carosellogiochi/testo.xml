@@ -4,6 +4,8 @@
   <view name="gamecarousel">
     <gamecarousel name="gamecarousel">
       <imageSource>text</imageSource>
+	  <fontSize>0.0215</fontSize> 
+	   <fontPath>./tema/fonts/RocketScript.ttf</fontPath>
     </gamecarousel>
   </view>
 </theme>

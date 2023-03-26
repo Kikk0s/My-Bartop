@@ -1,2 +1,2 @@
-Copy PiBoyDMG.mp4 to /boot/splash 
+Copy tecno.mp4 to /boot/splash 
 

@@ -14,7 +14,7 @@
         <logoSize>0.2 0.1</logoSize>
         <color>00000000</color>
         <maxLogoCount>3</maxLogoCount>
-		<zIndex>98</zIndex>	
+		<zIndex>101</zIndex>	
 		<systemInfoDelay>700</systemInfoDelay>		
       </carousel>
 	  
@@ -31,15 +31,6 @@
 		</text> 
 
 <!-- grafiche in aggiunta sulla home -->
-
-<image name="background2" extra="true">
-			<tile>true</tile>
-			 <pos>0 0</pos>
-		     <size>1 1</size>
-			<path>./tema/images/bg.png</path>
-			<color>00000080</color>
-			<zIndex>98</zIndex>	   
-</image>		
 
 		
 <image name="systeminfosfondo" extra="true">

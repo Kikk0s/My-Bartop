@@ -4,6 +4,7 @@
   
    <include>./config.xml</include>
   <view name="system"> 
+   
    <image name="staticBackground">
       <size>1 1</size>
       <pos>0 0</pos>
@@ -13,6 +14,9 @@
       <zIndex>2</zIndex>
     </image>	
 
+<image name="arcadeglow" extra="true">
+       <visible>true</visible>
+    </image>	
 	
    	<image name="arcadeled" extra="true">
       <visible>false</visible>
