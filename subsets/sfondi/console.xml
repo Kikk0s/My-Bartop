@@ -9,6 +9,18 @@
       <color>000000ff</color>
     </image>
 	
+	 <image name="consoleled" extra="true">
+      <tile>false</tile>
+      <path>./subsets/sfondi/consoleled.png</path>
+      <zIndex>99</zIndex>
+    </image>
+	
+	<image name="consolestrip" extra="true">
+      <tile>false</tile>
+      <path>./subsets/sfondi/consolestrip.png</path>
+      <zIndex>5</zIndex>
+    </image>	
+	
     <video name="backgroundvideo" extra="true">
       <path>{random}</path>
       <delay>1</delay>
@@ -35,17 +47,7 @@
     <image name="CenterFade" extra="true">
       <color>00000099</color>
     </image>
-	<image name="arcadeled" extra="true">
-      <visible>false</visible>
-    </image>
-	  <image name="arcadestrip" extra="true">
-      <visible>false</visible>
-    </image>	
-	
-		 <image name="arcadeglow" extra="true">
-	<visible>false</visible>
-    </image>
-	
+		
 	<text name="systemInfo">     
          <pos>0.715 0.15</pos>
 		 <origin>0.5 0.5</origin>

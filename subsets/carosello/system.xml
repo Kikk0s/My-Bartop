@@ -30,16 +30,6 @@
 
 <!-- grafiche in aggiunta sulla home -->
 
-
-<image name="background2" extra="true">
-			<tile>true</tile>
-			 <pos>0 0</pos>
-		     <size>1 1</size>
-			<path>./tema/images/bg.png</path>
-			<color>00000080</color>
-			<zIndex>98</zIndex>	   
-</image>		
-
 <image name="systeminfosfondo" extra="true">
 			 <pos>0.45 0.76</pos>
 		     <size>0.65 0.02</size>
@@ -74,9 +64,14 @@
  <visible>false</visible>
  </video>
  
- <image name="arcadeled" extra="true">
+ 	  <image name="staticBackgroundbartop">
+  <visible>false</visible>
+    </image>	
+ 
+ <image name="staticBackgroundbled">
   <visible>false</visible>
     </image>
+	
 	
   <image name="arcadestrip" extra="true">
       <visible>false</visible>

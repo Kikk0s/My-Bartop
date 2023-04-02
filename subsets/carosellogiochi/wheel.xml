@@ -3,9 +3,15 @@
     <formatVersion>7</formatVersion>
 
  <view name="gamecarousel">
+ <text name="logoText">
+<visible>false</visible>
+</text>	
     <gamecarousel name="gamecarousel">
         <type>vertical_wheel</type>
-		  <maxLogoCount>6</maxLogoCount>
+		<pos>0 0</pos>
+		<size>0.9 1</size>
+		<origin>0 0</origin>
+		<color>00000000</color>
 	</gamecarousel> 
 	</view>
 	

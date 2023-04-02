@@ -12,33 +12,5 @@
       <zIndex>4</zIndex>
     </video>	
 
-
-	<video name="backgroundvideo" extra="true">
-	  <visible>false</visible>
-    </video>
-	
-    <video name="backgroundvideo" extra="true" ifHelpPrompts="false">
-	  <visible>false</visible>
-    </video>
-	<image name="arcadeled" extra="true">
-      <visible>false</visible>
-    </image>
-	
-	<image name="arcadestrip" extra="true">
-      <visible>false</visible>
-    </image>
-	
-	 <image name="consolestrip" extra="true">
-         <visible>false</visible>
-    </image>	
-
-  <image name="consoleled" extra="true">
-        <visible>false</visible>
-    </image>
-	
-		 <image name="arcadeglow" extra="true">
-	<visible>false</visible>
-    </image>
-	
   </view>
 </theme>

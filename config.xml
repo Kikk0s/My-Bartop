@@ -1,7 +1,7 @@
 <theme>
     <formatVersion>7</formatVersion>
-
-<!--Carosello -->
+	
+		<!--Carosello -->
 	<subset subset="systemview" name="Carousel">
 	<include name="wheel">./subsets/carosello/wheel.xml</include>
 	<include name="vertical">./subsets/carosello/vertical.xml</include>
@@ -18,19 +18,22 @@
 	<include name="Vertical">./subsets/carosellogiochi/vertical.xml</include>
 	<include name="Wheel">./subsets/carosellogiochi/wheel.xml</include>
 	</subset>
-
+	
 <!--Sfondi -->
 	<subset subset="systemview" name="Custom Background">
 	<include name="black">./subsets/sfondi/black.xml</include>
 	<include name="hexagon">./subsets/sfondi/hexagon.xml</include>
 	<include name="carbon">./subsets/sfondi/carbon.xml</include>
 	<include name="holes">./subsets/sfondi/holes.xml</include>
-	<include name="holes V2">./subsets/sfondi/holesv2.xml</include>
-	<include name="holes V3">./subsets/sfondi/holesv3.xml</include>
 	<include name="metal">./subsets/sfondi/metal.xml</include>
 	<include name="armor">./subsets/sfondi/armor.xml</include>
 	<include name="circuits">./subsets/sfondi/circuits.xml</include>
-	<include name="Arcade">./subsets/sfondi/Arcade.xml</include>
+	<include name="Batman">./subsets/sfondi/batman.xml</include>
+	<include name="Akuna">./subsets/sfondi/akuna.xml</include>
+	<include name="Gamer">./subsets/sfondi/gamer.xml</include>
+	<include name="Gaming Zone">./subsets/sfondi/gamingzone.xml</include>
+	<include name="Old School">./subsets/sfondi/oldschool.xml</include>
+	<include name="Arcade">./subsets/sfondi/arcade.xml</include>
 	<include name="Arcade video frame">./subsets/sfondi/Bartop.xml</include>
 	<include name="Video frame">./subsets/sfondi/console.xml</include>
 	<include name="Fullscreen video">./subsets/sfondi/video.xml</include>
@@ -87,6 +90,7 @@
 	<include name="Yes">./subsets/grid/video.xml</include>
 	</subset> 
 	
+
 </theme>
 
 

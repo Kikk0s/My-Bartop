@@ -12,17 +12,23 @@
 			<zIndex>101</zIndex>
 			<storyboard>
 			<animation property="x" from="1" begin="1" duration="500" mode="easeIn"/>
-			 <!-- <animation property="opacity" from="0.5" to="1" duration="500" mode="linear" autoReverse="true" repeat="forever" /> -->
+			 <animation property="opacity" from="0.5" to="1" duration="1000" mode="linear" autoReverse="true" repeat="forever" />
 			</storyboard>				
 		</image>
 		
-<image name="arcadeled" extra="true">
+<image name="staticBackgroundled">
       <zIndex>101</zIndex>
 	  <storyboard>
 			<animation property="opacity" from="0" to="1" duration="3000" mode="easeIn" autoReverse="true" repeat="forever"/>
 	  </storyboard>
     </image>
 	
+<image name="staticBackgroundbled">
+      <zIndex>101</zIndex>
+	  <storyboard>
+			<animation property="opacity" from="0" to="1" duration="3000" mode="easeIn" autoReverse="true" repeat="forever"/>
+	  </storyboard>
+    </image>	
 	
 <image name="consoleled" extra="true">
       <zIndex>9</zIndex>
@@ -38,12 +44,7 @@
 	  </storyboard>
     </image>
 	
-		 <image name="arcadeglow" extra="true">
-	 <zIndex>101</zIndex>
-	  <storyboard>
-				<animation property="opacity" from="0" to="1" duration="3000" mode="easeIn" autoReverse="true" repeat="forever"/>
-	  </storyboard>
-    </image>
+
 	
 			 <image name="splashaccento" extra="true">
 	 <zIndex>7</zIndex>
@@ -67,38 +68,28 @@
 	  </storyboard>
     </image>
 	
-	<!-- <image name="arcadeterra" extra="true">
-      <zIndex>101</zIndex>
-	  <storyboard>
-			<animation property="opacity" from="0" to="1" duration="3000" mode="easeIn" autoReverse="true" repeat="forever"/>
-	  </storyboard>
-    </image>
-
-	<image name="arcadeterrascifi" extra="true">
-      <zIndex>101</zIndex>
-	  <storyboard>
-			<animation property="opacity" from="0" to="1" duration="3000" mode="easeIn" autoReverse="true" repeat="forever"/>
-	  </storyboard>
-    </image>
-	
-	<image name="gamer" extra="true">
-      <zIndex>101</zIndex>
-	  <storyboard>
-			<animation property="opacity" from="0" to="1" duration="3000" mode="easeIn" autoReverse="true" repeat="forever"/>
-	  </storyboard>
-    </image> -->
 	
 </view> 		
 
 <!-- lista giochi -->
-<view name="basic, detailed,video,gamecarousel">
+<!-- <view name="basic, detailed,video,gamecarousel">
     <textlist name="gamelist">
 	<scaleOrigin>0.5 0.5</scaleOrigin>
       <storyboard>
         <animation property="scale" from="0" to="1" duration="380" mode="easeOut"/>
       </storyboard>
     </textlist>
-  </view>
+  </view>  -->
+  
+   <view name="basic, detailed,video,gamecarousel">
+    <textlist name="gamelist">
+      <storyboard>
+         <animation property="x" from="-0.5" begin="1" duration="1000" mode="EaseInCubic"/>
+      </storyboard>
+    </textlist>
+	</view>
+  
+
   
   <text name="gridtile_selected">
 	<storyboard>
@@ -110,23 +101,23 @@
 <!-- Vista basic -->
 <view name="basic">
  <!-- grafiche aggiuntive sfondo-->
-	 <image name="barra" extra="true">
+	 <image name="system" extra="true">
 			<zIndex>3</zIndex>
 	<storyboard>
-			<animation property="x" from="0" begin="1" duration="500" mode="easeIn"/>
-			 <!-- <animation property="opacity" from="0.5" to="1" duration="500" mode="linear" autoReverse="true" repeat="forever" /> -->
+			<animation property="y" from="0" begin="1" duration="500" mode="easeIn"/>
+			<animation property="opacity" from="0.5" to="1" duration="1000" mode="linear" autoReverse="true" repeat="forever" /> 
 	</storyboard>				
 	</image>
 	<image name="line" extra="true">
 			<zIndex>2</zIndex>	
 	<storyboard>
-			<animation property="x" from="1" begin="1" duration="600" mode="easeIn"/>
+			<animation property="x" from="1" begin="1" duration="800" mode="easeIn"/>
 	</storyboard>				
 		</image>
 		<image name="line2" extra="true">
 			<zIndex>2</zIndex>	
 	<storyboard>
-			<animation property="x" from="1" begin="1" duration="700" mode="easeIn"/>
+			<animation property="x" from="1" begin="1" duration="800" mode="easeIn"/>
 	</storyboard>				
 		</image>
 		<image name="line3" extra="true">
@@ -140,32 +131,32 @@
 <!-- Altre viste -->	
  <view name="detailed,video,gamecarousel">
 	 <!-- grafiche aggiuntive sfondo-->
-		<image name="barra" extra="true">
+		<image name="system" extra="true">
 		<zIndex>3</zIndex>				
 		<storyboard>
-			<animation property="x" from="0" begin="1" duration="500" mode="easeIn"/>
-			 <!-- <animation property="opacity" from="0.5" to="1" duration="500" mode="linear" autoReverse="true" repeat="forever" /> -->
+			<animation property="y" from="0" begin="1" duration="1000" mode="EaseInCubic"/>
+			 <animation property="opacity" from="0.5" to="1" duration="1000" mode="linear" autoReverse="true" repeat="forever" /> 
 		</storyboard>				
 	</image>
 
 	<image name="line" extra="true">
 			<zIndex>2</zIndex>
 	<storyboard>
-			<animation property="x" from="1" begin="1" duration="600" mode="easeIn"/>
+			<animation property="x" from="1" begin="1" duration="1000" mode="easeIn"/>
 			</storyboard>				
 		</image>
 		
 	<image name="line2" extra="true">
 			<zIndex>2</zIndex>	
 <storyboard>
-			<animation property="x" from="1" begin="1" duration="700" mode="easeIn"/>
+			<animation property="x" from="1" begin="1" duration="1000" mode="easeIn"/>
 			</storyboard>				
 	</image>
 		
 	<image name="line3" extra="true">
 			<zIndex>2</zIndex>	   
 			<storyboard>
-			<animation property="x" from="1" begin="1" duration="800" mode="easeIn"/>
+			<animation property="x" from="1" begin="1" duration="1000" mode="easeIn"/>
 			</storyboard>	
 		</image>
 		
@@ -173,7 +164,7 @@
       <rating name="md_rating">
 		 <zIndex>3</zIndex>
 		 <storyboard>
-			<animation property="x" from="1" begin="1" duration="800" mode="easeIn"/>
+			<animation property="x" from="1" begin="1" duration="1000" mode="EaseInCubic"/>
 		</storyboard>
     </rating>	
 </view>     

@@ -18,6 +18,10 @@
 
 	<controllerActivity name="controllerActivity">
 		<pos>0.014 0.01</pos>
+		<size>0.13 0.036</size>
+		<itemSpacing>0.006</itemSpacing>
+		<imagePath>.\tema\icons/gamepad.svg</imagePath>
+		<gunPath>.\tema\icons/gun.svg</gunPath>
 	</controllerActivity>
 </view>
 
@@ -49,7 +53,7 @@
       <selectorColor>${accentColor}</selectorColor>
       <selectorColorEnd>${accentColor}</selectorColorEnd>
       <selectedColor>000000</selectedColor>
-      <separatorColor>26262650</separatorColor>
+      <separatorColor>26262600</separatorColor>
 	  <fontSize>0.025</fontSize>
 </menuText>
 <menuTextSmall name="menutextsmall">
@@ -68,6 +72,25 @@
       <color>00000099</color>
       <path>./tema/images/dark.png</path>
     </menuBackground>
+	
+<!-- Icone Menu -->	
+	<menuIcons name="menuicons">
+		<iconKodi>.\tema\icons/Kodi.png</iconKodi>
+		<iconSystem>.\tema\icons/System.png</iconSystem>
+		<iconUpdates>.\tema\icons/Updates.png</iconUpdates>
+		<iconGames>.\tema\icons/Games.png</iconGames>
+		<iconControllers>.\tema\icons/Controllers.png</iconControllers>
+		<iconUI>.\tema\icons/UI.png</iconUI>
+		<iconSound>.\tema\icons/Sound.png</iconSound>
+		<iconNetwork>.\tema\icons/Network.png</iconNetwork>
+		<iconScraper>.\tema\icons/Scraper.png</iconScraper>
+		<iconAdvanced>.\tema\icons/Advanced.png</iconAdvanced>
+		<iconQuit>.\tema\icons/Quit.png</iconQuit>
+		<iconRestart>.\tema\icons/Restart.png</iconRestart>
+		<iconShutdown>.\tema\icons/Shutdown.png</iconShutdown>
+		<iconFastShutdown>.\tema\icons/Fastshutdown.png</iconFastShutdown>
+</menuIcons>
+
   </view> 
 
 <!-- Sistema -->
@@ -101,40 +124,29 @@
 		</image>
 
 
-
-  <image name="arcadeled" extra="true">
-      <tile>false</tile>
-      <path>./subsets/sfondi/arcadeled.png</path>
+	<image name="staticBackgroundbled">
 	  <color>${accentColor2}</color>
-	  <!--<glowColor>${accentColor}</glowColor>
-      <glowSize>3</glowSize>
-      <glowOffset>1 1</glowOffset> -->
-      <zIndex>101</zIndex>
     </image>
-	
+
+	<image name="staticBackgroundled">
+	  <color>${accentColor2}</color>
+    </image>
+
 	<image name="arcadeglow" extra="true">
-      <tile>false</tile>
-      <path>./subsets/sfondi/arcadeglow.png</path>
-	  <!--<color>${accentColor2}</color> -->
-      <zIndex>101</zIndex>
+	  <color>ffffff</color>
     </image>	
 	
-	 <image name="consoleled" extra="true">
-      <tile>false</tile>
-      <path>./subsets/sfondi/consoleled.png</path>
+	<image name="arcadeled" extra="true">
 	  <color>${accentColor2}</color>
-	  <!--<glowColor>${accentColor}</glowColor>
-      <glowSize>3</glowSize>
-      <glowOffset>1 1</glowOffset> -->
-      <zIndex>99</zIndex>
     </image>
 	
-	<image name="consolestrip" extra="true">
-      <tile>false</tile>
-      <path>./subsets/sfondi/consolestrip.png</path>
-	 <!--<color>${accentColor2}</color> -->
-      <zIndex>5</zIndex>
+	<image name="consoleled" extra="true">
+	  <color>${accentColor2}</color>
     </image>
+	
+	<image name="batmanglow" extra="true">
+	  <color>${accentColor2}</color>
+    </image>	
 
  <!-- barra suggerimenti in basso -->
    <helpsystem name="help">
@@ -151,12 +163,11 @@
 
 <!-- loghi di sistema -->
 <view name="detailed, video,gamecarousel,basic">
-                <image name="system" extra="true">
-                   <origin>0.5 0.5</origin>
-                   <pos>0.25 0.12</pos>
-                   <maxSize>0.25 0.1</maxSize>
+                <image name="system" extra="true">        
+                  <pos>0.025 0.05</pos>
+                   <maxSize>0.45 0.16</maxSize>
                    <path>./tema/loghi/${system.theme}.svg</path>
-				   <color>000000</color>
+				   <color>${accentColor2}</color>
                    <zIndex>4</zIndex>            
                 </image>	
 </view>	
@@ -167,7 +178,7 @@
                    <pos>0.75 0.17</pos>
                    <maxSize>0.25 0.1</maxSize>
                    <path>./tema/loghi/${system.theme}.svg</path>
-				   <color>000000</color>
+				   <color>${accentColor2}</color>
                    <zIndex>4</zIndex>            
                 </image>
 </view>	
@@ -190,7 +201,7 @@
 <view name="basic,detailed,video">
       <textlist name="gamelist">      
          <selectorColor>${accentColor2}</selectorColor>
-         <selectedColor>${accentColor}</selectedColor>
+         <selectedColor>${accentColor2}</selectedColor>
 		 <selectorImagePath>./subsets/carosello/selector.png</selectorImagePath>
          <primaryColor>ffffff</primaryColor>
          <secondaryColor>${accentColor}</secondaryColor>
@@ -198,7 +209,8 @@
          <fontSize>0.020</fontSize>
          <forceUppercase>0</forceUppercase>
          <scrollSound>./tema/sounds/Move.wav</scrollSound>
-         <zIndex>3</zIndex>                          
+		 <horizontalMargin>0.01</horizontalMargin>
+         <zIndex>3</zIndex>
       </textlist>  
 </view> 
 
@@ -221,7 +233,7 @@
         <zIndex>1</zIndex> 
 	</image>
     <!-- grafiche aggiuntive sfondo-->
-	 <image name="barra" extra="true">
+	<!--  <image name="barra" extra="true">
 			<tile>false</tile>
 			 <origin>0.5 0.5</origin>
              <pos>0.225 0.12</pos>
@@ -229,7 +241,7 @@
 			<path>./subsets/carosello/linee2.png</path>
 			<color>${accentColor2}</color>
 			<zIndex>3</zIndex>	
-		</image>
+		</image> -->
 		
 		<image name="line" extra="true">
 			<size>0.52 0.002</size>
@@ -263,14 +275,27 @@
        <!-- sfondo lista giochi -->
       <image name="background" extra="true">
        <tile>true</tile>
-         <origin>0 0</origin>
-         <pos>0 0</pos>
-         <size>1 1</size>
+          <pos>0.50 0.05</pos>
+         <size>0.50 0.85</size>
          <path>./tema/images/bg.png</path>
+		 <color>14141497</color>
+		 <cornerSize>0.05</cornerSize>
          <zIndex>1</zIndex>    
       </image>     
+	  
+	  <image name="background2" extra="true">
+       <tile>true</tile>
+         <pos>0.025 0.05</pos>
+		 <size>0.45 0.852</size>
+         <path>./tema/images/bg.png</path>
+		 <color>08060697</color>
+         <zIndex>1</zIndex>    
+      </image>   
+  	  
+	  
+
 	 <!-- grafiche aggiuntive sfondo-->
-	 <image name="barra" extra="true">
+	 <!--  <image name="barra" extra="true">
 			<tile>false</tile>
 			 <origin>0.5 0.5</origin>
              <pos>0.225 0.12</pos>
@@ -279,13 +304,13 @@
 			<color>${accentColor2}</color>
 			<zIndex>3</zIndex>	
 			
-		</image>	
+		</image>	-->
 
 	<image name="line" extra="true">		
 			<size>0.52 0.002</size>
 			<pos>0.50 0.2</pos>
 			<path>./tema/images/white.png</path>
-			 <color>${accentColor2}</color>
+			 <color>252525</color>
 			<zIndex>2</zIndex>				
 		</image>
 		
@@ -293,7 +318,7 @@
 			<size>0.52 0.002</size>
 			<pos>0.50 0.40</pos>
 			<path>./tema/images/white.png</path>
-			 <color>${accentColor2}</color>
+			 <color>252525</color>
 			<zIndex>2</zIndex>					
 		</image>
 		
@@ -301,7 +326,7 @@
 			<size>0.52 0.002</size>
 			<pos>0.50 0.90</pos>
 			<path>./tema/images/white.png</path>
-			 <color>${accentColor2}</color>
+			 <color>252525</color>
 			<zIndex>2</zIndex>	   
 		</image>
 </view>     
@@ -311,27 +336,20 @@
       <image name="background" extra="true">
        <tile>true</tile>
          <origin>0 0</origin>
-         <pos>0 0</pos>
-         <size>1 1</size>
+         <pos>0.0 0.05</pos>
+         <size>1 0.852</size>
          <path>./tema/images/bg.png</path>
+		 <color>14141497</color>
          <zIndex>1</zIndex>    
       </image>     
 	 <!-- grafiche aggiuntive sfondo-->
-	 <image name="barra" extra="true">
-			<tile>false</tile>
-			 <origin>0.5 0.5</origin>
-             <pos>0.80 0.17</pos>
-			 <maxSize>0.55 0.2</maxSize>
-			<path>./subsets/carosello/linee.png</path>
-			<color>${accentColor2}</color>
-			<zIndex>3</zIndex>				
-		</image>
+
 		
 	<image name="line2" extra="true">
 			<size>0.52 0.002</size>
 			<pos>0.50 0.40</pos>
 			<path>./tema/images/white.png</path>
-			 <color>${accentColor2}</color>
+			 <color>252525</color>
 			<zIndex>2</zIndex>					
 		</image>
 		
@@ -339,7 +357,7 @@
 			<size>0.52 0.002</size>
 			<pos>0.50 0.90</pos>
 			<path>./tema/images/white.png</path>
-			 <color>${accentColor2}</color>
+			 <color>252525</color>
 			<zIndex>2</zIndex>				
 		</image>
 
@@ -350,8 +368,8 @@
 		<!-- layout lista giochi -->
 		<textlist name="gamelist">                          
           <pos>0.025 0.22</pos>
-         <size>0.45 0.725</size>
-         <alignment>left</alignment>                       
+         <size>0.45 0.67</size>
+         <alignment>left</alignment>                      
       </textlist>
 	      
 </view>
@@ -371,7 +389,7 @@
    <view name="video,gamecarousel">   
       <video name="md_video">
          <origin>0.5 0.5</origin>
-         <pos>0.76 0.65</pos>
+         <pos>0.75 0.65</pos>
          <maxSize>0.42 0.42</maxSize>
          <delay>1</delay>
          <zIndex>3</zIndex>         
@@ -382,20 +400,21 @@
 </feature>
 
 <view name="detailed,video,gamecarousel">
-      <!-- rating gioco-->	
-      <rating name="md_rating">
-         <origin>0.5 0.5</origin>     
-         <pos>0.875 0.16</pos>
+
+ <!-- rating gioco-->	
+      <rating name="md_rating">    
+         <pos>0.9 0.06</pos>
          <size>0.03 0.03</size>
 		 <color>${accentColor2}</color>
 		 <zIndex>3</zIndex>
     </rating>
-	<!-- testo introduttivo sviluppatore gioco-->	
+
+<!-- testo introduttivo sviluppatore gioco-->	
       <text name="md_lbl_developer">
          <origin>0.5 0.5</origin>
 		 <fontPath>./tema/fonts/Ubuntu-Regular.ttf</fontPath>
 		 <fontSize>0.02</fontSize>
-         <pos>0.825 0.12</pos>
+         <pos>0.825 0.07</pos>
          <size>0.6 0.6</size>
          <color>ffffff</color>
          <zIndex>3</zIndex> 
@@ -403,42 +422,90 @@
 	  <!-- sviluppatore gioco-->	
       <text name="md_developer">
          <origin>0.5 0.5</origin>
-         <pos>0.99 0.12</pos>
+         <pos>0.90 0.07</pos>
          <size>0.6 0.6</size>
 		 <fontPath>./tema/fonts/Ubuntu-Regular.ttf</fontPath>
-		 <fontSize>0.03</fontSize>
+		 <fontSize>0.02</fontSize>
          <color>ffffff</color>
          <zIndex>3</zIndex>
       </text>
-	  <!-- testo introduttivo data di rilascio gioco-->	
-      <text name="md_lbl_releasedate">
+
+<!-- testo introduttivo genere gioco-->
+      <text name="md_lbl_genre">
          <origin>0.5 0.5</origin>
-         <pos>0.825 0.16</pos>
+         <pos>0.825 0.10</pos>
          <size>0.6 0.6</size>
 		 <fontPath>./tema/fonts/Ubuntu-Regular.ttf</fontPath>
 		 <fontSize>0.02</fontSize>
          <color>ffffff</color>
          <zIndex>3</zIndex>                  
       </text>
-	   <!-- data di rilascio gioco-->	
-      <datetime name="md_releasedate">
+	  	<!-- testo genere gioco-->
+      <text name="md_genre">
          <origin>0.5 0.5</origin>
-         <pos>0.99 0.16</pos>
+         <pos>0.90 0.10</pos>
          <size>0.6 0.6</size>
 		 <fontPath>./tema/fonts/Ubuntu-Regular.ttf</fontPath>
 		 <fontSize>0.02</fontSize>
          <color>ffffff</color>
          <zIndex>3</zIndex>         
-      </datetime>
+      </text>
+
+     
+	<!-- testo introduttivo data di rilascio gioco-->	
+
+	   <text name="md_lbl_releasedate">
+         <origin>0.5 0.5</origin>
+		 <fontPath>./tema/fonts/Ubuntu-Regular.ttf</fontPath>
+		 <fontSize>0.02</fontSize>
+         <pos>0.825 0.14</pos>
+         <size>0.6 0.6</size>
+         <color>ffffff</color>
+         <zIndex>3</zIndex> 
+      </text>
+<!-- data di rilascio gioco-->	
+	  <datetime name="md_releasedate">
+         <origin>0.5 0.5</origin>
+		 <fontPath>./tema/fonts/Ubuntu-Regular.ttf</fontPath>
+		 <fontSize>0.02</fontSize>
+         <pos>0.9 0.14</pos>
+         <size>0.6 0.6</size>
+         <color>ffffff</color>
+         <zIndex>3</zIndex> 
+        </datetime>
+	  
+	  	<!-- testo introduttivo giocatori gioco-->
+	   <text name="md_lbl_players">
+         <origin>0.5 0.5</origin>
+		 <fontPath>./tema/fonts/Ubuntu-Regular.ttf</fontPath>
+		 <fontSize>0.02</fontSize>
+         <pos>0.825 0.18</pos>
+         <size>0.6 0.6</size>
+         <color>ffffff</color>
+         <zIndex>3</zIndex> 
+      </text>
+	  
+	 <text name="md_players">
+         <origin>0.5 0.5</origin>
+		 <fontPath>./tema/fonts/Ubuntu-Regular.ttf</fontPath>
+		 <fontSize>0.02</fontSize>
+         <pos>0.9 0.18</pos>
+         <size>0.6 0.6</size>
+         <color>ffffff</color>
+         <zIndex>3</zIndex> 
+      </text>
+	  
+	
+	
 	  <!-- layout descrizione gioco -->	
 		<text name="md_description">
 			<color>ffffff</color>
 			<forceUppercase>0</forceUppercase>
 			<fontPath>./tema/fonts/Ubuntu-Regular.ttf</fontPath>
 			<fontSize>0.02</fontSize>
-			<size>0.42 0.15</size>
+			<size>0.45 0.15</size>
 			<origin>0.5 0</origin>
-            <pos>0.74 0.22</pos>
+            <pos>0.75 0.22</pos>
 		</text>
 </view>
    
@@ -446,7 +513,7 @@
          <!-- layout vista a griglia-->	
 		<image name="header" extra="true">
 			<path>null</path>
-		</image>
+		</image>    
 		
 		<text name="gridtile">
 			<color>ffffff80</color>

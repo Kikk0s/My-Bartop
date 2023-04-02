@@ -9,12 +9,18 @@
       <color>000000ff</color>
     </image>
 	
-	  <image name="staticBackground" extra="true">
+	  <image name="staticBackgroundbartop">
       <tile>false</tile>
       <path>./subsets/sfondi/arcadestrip.png</path>
-	 <!--<color>${accentColor2}</color> -->
       <zIndex>5</zIndex>
     </image>	
+	 
+	 <image name="staticBackgroundbled">
+      <tile>false</tile>
+      <path>./subsets/sfondi/arcadeled.png</path>
+      <zIndex>101</zIndex>
+    </image>
+	
 	
     <video name="backgroundvideo" extra="true">
       <path>{random}</path>
@@ -39,17 +45,7 @@
       <color>00000099</color>
     </image>
 	
-		 <image name="consolestrip" extra="true">
-         <visible>false</visible>
-    </image>	
-
-  <image name="consoleled" extra="true">
-        <visible>false</visible>
-    </image>
-		
-	<image name="arcadeglow" extra="true">
-	<visible>false</visible>
-    </image>	
+	
 	
 <text name="systemInfo">     
          <pos>0.715 0.15</pos>

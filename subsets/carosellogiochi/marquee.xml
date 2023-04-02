@@ -2,8 +2,13 @@
 <theme>
   <formatVersion>7</formatVersion>
   <view name="gamecarousel">
+  <text name="gamecarouselLogoText">
+<fontPath>./tema/fonts/RocketScript.ttf</fontPath>
+<fontSize>0.0215</fontSize>
+</text>		
     <gamecarousel name="gamecarousel">
-      <imageSource>marquee</imageSource>      
+      <imageSource>marquee</imageSource>
+	  <maxLogoCount>6</maxLogoCount>	  
     </gamecarousel>
   </view>
 </theme>

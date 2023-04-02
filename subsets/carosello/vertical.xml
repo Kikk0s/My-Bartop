@@ -10,12 +10,12 @@
         <type>vertical</type>
         <pos>0 0</pos>
 		<origin>0 0</origin>
-        <logoAlignment>center</logoAlignment>         
+        <logoAlignment>left</logoAlignment>         
         <size>1 1</size>
         <logoScale>2.2</logoScale> 
         <logoSize>0.2 0.1</logoSize>
         <color>00000000</color>
-        <maxLogoCount>1</maxLogoCount>
+        <maxLogoCount>3</maxLogoCount>
 		<zIndex>98</zIndex>
 		<systemInfoDelay>700</systemInfoDelay>
       </carousel>
