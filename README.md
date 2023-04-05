@@ -1,8 +1,8 @@
-# Piboy-BT
+# My - Bartop
 
-Es Theme for batocera optimized for small screens -Piboy DMG inspiered whit a lot of customizations!
+Es Theme for batocera for my personal bartop whit a lot of customizations!
 
-Theme: Piboy-BT
+Theme: My - Bartop
 
 Author: kikk0s
 
@@ -23,12 +23,14 @@ Controller artwork originally based on: "Carbon" by Eric Hettervik (Rookervik)
 
 ### Configurable theme settings
 
-* Carousel: Wheel - Vertical - Horizontal - Controllers
-* Rom list style: Detailed - base - grid - game carousel
-* Game carousel: Vertical - Wheel 
-* Game carousel image source: Text - Marquee
-* Backgrounds: Hexagon - Holes - Holes V2 - Holes V3 - Metal - Black - Fullscreen Video - Arcade video frame
-* Colors set: 8 sets
+* Carousel
+* Rom list style
+* Game carousel
+* Game carousel image source
+* Backgrounds & Video Backgrounds
+* Colors set
+* Animations
+* Filters
 
 
 
